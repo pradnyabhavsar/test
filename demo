@@ -1,0 +1,30 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("in first round");
+        System.out.println("150 + 800 will go it will charge 800");
+        int first_round=800;
+        System.out.println("150  will be coming back");
+        int coming_back_first_round=150;
+        int total_first_round=first_round +coming_back_first_round;
+        
+        
+        System.out.println("in second round");
+        System.out.println("150 + 700 will go it will charge 700");
+        int second_round=700;
+        System.out.println("150  will be coming back");
+        int coming_back_second_round=150;
+        int total_second_round=second_round +coming_back_second_round;
+        
+        
+        System.out.println("in third round");
+        System.out.println("150 + 600 will go it will charge 600");
+        int third_round=600;
+        
+        int total_cost=total_first_round+total_second_round +third_round;
+        System.out.println("total cost will be"+total_cost);
+     }
+}
+
+
+
